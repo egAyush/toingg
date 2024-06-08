@@ -40,7 +40,7 @@ const Navbar = () => {
     md:justify-between md:items-center"
     >
       <div className="container mx-auto flex justify-between items-center">
-        <a href="" className="text-2xl font-bold">
+        <a href="/" className="text-2xl font-bold">
           Toingg
         </a>
         <div className={getMenuClasses()}>

@@ -2,6 +2,8 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Swipable from "./components/Swipable";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -27,8 +29,24 @@ export default function Home() {
 
         <Card />
 
+        <h1 className="mt-[160px] font-bold text-left text-3xl text-black">
+          Features
+        </h1>
+        <div>Swipe Below for More!</div>
+
         <Swipable />
+
+        <h1 className="mt-[160px] font-bold text-left text-3xl text-black">
+          Testimonials
+        </h1>
+
+        <div className="w-auto h-auto">
+          <Image width={60} height={60} alt="img" src="testimonial.svg" />
+        </div>
+
+        <Testimonials />
       </div>
+      <Footer />
     </main>
   );
 }
