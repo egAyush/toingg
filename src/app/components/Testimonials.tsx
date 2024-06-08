@@ -33,6 +33,7 @@ const Testimonials = () => {
             Arjun
           </h2>
           <h2 className=" mt-4 text-1xl">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             They helped me scale my buisness so much that I'm now profitable and
             trying to scale much more!! Thank You Toingg!!
           </h2>
